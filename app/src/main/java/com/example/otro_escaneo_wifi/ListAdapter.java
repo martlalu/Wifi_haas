@@ -59,6 +59,7 @@ public class ListAdapter extends BaseAdapter {
 
         }
 
+        //holder1.tvDetails.setText(wifiList.get(position).SSID);
         holder1.tvDetails.setText(wifiList.get(position).SSID);
         return view;
 
